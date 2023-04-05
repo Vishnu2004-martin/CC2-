@@ -1,0 +1,39 @@
+body{
+    background-color: #00ffff;
+    text-align: center;
+    display: flexbox;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+h1{
+    color: rgb(255, 204, 0);
+    background-color: rgb(0, 0, 0);
+}
+table{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: x-large;
+    font-weight: 500;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-spacing: 25px;
+}
+input,textarea{
+    font-size: large;
+}
+select{
+    font-size: medium;
+}
+tr{
+    padding: 100px;
+}
+.t1,.t2{
+    text-align: left;
+}
+.b{
+    background-color: rgb(255, 140, 0);
+    color: white;
+    font-size: medium;
+}
